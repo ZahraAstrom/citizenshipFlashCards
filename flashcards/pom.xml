@@ -10,6 +10,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
+
+        <dependency>
+            <groupId>com.cedarsoft.commons.swing</groupId>
+            <artifactId>swing</artifactId>
+            <version>8.9.2</version>
+        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -150,6 +157,11 @@
                         <version>4.3.0</version>
                     </plugin>
                 </plugins>
+                <resources>
+                    <resource>
+                        <directory>src/main/resources</directory>
+                    </resource>
+                </resources>
             </build>
         </profile>
     </profiles>
